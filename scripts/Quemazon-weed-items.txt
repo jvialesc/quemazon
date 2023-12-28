@@ -1,0 +1,46 @@
+module QuemazonItems
+{
+    /******************************* Weed Strains **********************************/
+    item WeddingCake_Strain
+    {
+	    DisplayCategory = FirstAid,
+        DisplayName	=	Wedding Cake,
+        Type	=	Drainable,
+        Count = 3
+        Medical = True,
+        Weight	=	0.05,
+        RequireInHandOrInventory	=	Matches/Lighter,
+		HungerChange	=	60,
+        ThirstChange = 60,
+		StressChange	=	-40,
+        UnhappyChange	=	-50,
+		CanBandage = FALSE,
+        Icon	=	IckySticks,
+        WorldStaticModel = CigarettePack_Ground,
+        StaticModel = Cigarette,
+        CantBeFrozen = TRUE,
+        EatType = Cigarettes,
+        OnEat = OnEat_Weed_Strain,
+	},
+    item NorthernLights_Strain
+    {
+	    DisplayCategory = FirstAid,
+        DisplayName	=	Northern Lights,
+        Type	=	Drainable,
+        Count = 3
+        Medical = True,
+        Weight	=	0.05,
+        RequireInHandOrInventory	=	Matches/Lighter,
+		HungerChange	=	60,
+        ThirstChange = 60,
+		StressChange	=	-40,
+        UnhappyChange	=	-50,
+		CanBandage = FALSE,
+        Icon	=	IckySticks,
+        WorldStaticModel = CigarettePack_Ground,
+        StaticModel = Cigarette,
+        CantBeFrozen = TRUE,
+        EatType = Cigarettes,
+        OnEat = OnEat_Weed_Strain,
+	}
+}

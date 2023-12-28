@@ -1,0 +1,9 @@
+VERSION = 1
+
+option QuemazonItems.WeedSpawnRate
+{
+	type = double,
+	min = 0, max = 100,
+	default = 1.0,
+    page = QuemazonItems,
+}
