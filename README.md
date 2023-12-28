@@ -40,7 +40,7 @@ Welcome to the Quemazon Mod! This mod is designed to enhance your gaming experie
 
 ## Compatibility <a name="compatibility"></a>
 
-This mod is compatible with Project Zomboid version [X.X.X]. It may not work correctly with other mods that modify similar game files.
+This mod is compatible with Project Zomboid version [41.78]. It may not work correctly with other mods that modify similar game files.
 
 ## Credits <a name="credits"></a>
 
